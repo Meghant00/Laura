@@ -1,0 +1,23 @@
+/* ./src/index.css */
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.testimonials {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./images/testimonials-bg.jpg);
+  background-size: cover;
+}
+html {
+  scroll-behavior: smooth !important;
+}
+
+.swiper-pagination-bullet {
+  width: 12px !important;
+  height: 12px !important;
+  background-color: gray !important;
+}
+.swiper-pagination-bullet-active {
+  background-color: rgb(251, 191, 36) !important;
+}
