@@ -14,7 +14,7 @@ const Footer = () => {
       >
         <div className="container mx-auto w-4/5">
           <div className="flex flex-col items-center justify-center pt-16 text-center">
-            <h2 className="font-brand text-4xl ">Laura </h2>
+            <h2 className="font-brand text-4xl ">Laura Thomson</h2>
             <p className="py-4">
               Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni
               eligendi fuga maxime saepe commodi placeat.
